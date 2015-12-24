@@ -169,8 +169,8 @@ listen =
 		 at runtime, and start/stop services dynamically per address per interface
 	*/
 	     
-	mode = "getifaddrs"
-	addrs = { eth0 = ["::"] }
+	mode = "manual"
+	addrs = { eth0 = ["0.0.0.0"] }
 }
 
 modules = {
