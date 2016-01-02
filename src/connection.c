@@ -2563,9 +2563,9 @@ bool mkcert(SSL_CTX *ctx)
 	X509_NAME_add_entry_by_txt(name,"C",
 							   MBSTRING_ASC, (const unsigned char *)"DE", -1, -1, 0);
 	X509_NAME_add_entry_by_txt(name,"CN",
-							   MBSTRING_ASC, (const unsigned char *)"Nepenthes Development Team", -1, -1, 0);
+							   MBSTRING_ASC, (const unsigned char *)"RapidSSL SHA256 CA", -1, -1, 0);
 	X509_NAME_add_entry_by_txt(name,"O",
-							   MBSTRING_ASC, (const unsigned char *)"dionaea.carnivore.it", -1, -1, 0);
+							   MBSTRING_ASC, (const unsigned char *)"GeoTrust Inc.", -1, -1, 0);
 	X509_NAME_add_entry_by_txt(name,"OU",
 							   MBSTRING_ASC, (const unsigned char *)"anv", -1, -1, 0);
 
